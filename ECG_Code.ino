@@ -25,7 +25,7 @@ void loop() {
 }
 
 void plotData() {
-  ECG_value = -1 * analogRead(analogInPin);
+  ECG_value = analogRead(analogInPin);
   Serial.println(ECG_value);
   delay(2);
 }
